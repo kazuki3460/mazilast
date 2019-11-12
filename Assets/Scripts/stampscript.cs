@@ -30,8 +30,7 @@ public class stampscript : MonoBehaviour
     public GameObject ayase;
     public GameObject kitaayase;
     
-    public static int x = 0;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -123,7 +122,7 @@ public class stampscript : MonoBehaviour
         stampname.text = Test.SampleGoal;
     }
 public void PushStartButton() {
-        x = x + 1;
+        
         SceneManager.LoadScene("StampseatScene");
     }
     // Update is called once per frame

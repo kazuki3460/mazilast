@@ -9,7 +9,7 @@ using NPOI.SS.UserModel;
 
 public class takeuchi_importer : AssetPostprocessor {
 	private static readonly string filePath = "Assets/takeuchi.xls";
-	private static readonly string exportPath = "Assets/Resouces/takeuchi.asset";
+	private static readonly string exportPath = "Assets/takeuchi.asset";
 	private static readonly string[] sheetNames = { "Sheet1", };
 	
 	static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)

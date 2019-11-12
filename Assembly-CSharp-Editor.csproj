@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2DF97AD5-5BD0-4716-23F3-C73CD85E8081}</ProjectGuid>
+    <ProjectGuid>{AA2C678F-CE3F-0446-33A9-34DF8852B607}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -54,25 +54,26 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Terasurware\Classes\Editor\takeuchi_importer.cs" />
+     <Compile Include="Assets\Terasurware\Classes\Editor\time_importer.cs" />
      <Compile Include="Assets\Terasurware\Editor\ExcelImporterMaker.cs" />
      <None Include="Assets\Terasurware\Editor\ExportTemplate.txt" />
      <None Include="Assets\Terasurware\Editor\ExportTemplate2.txt" />
      <None Include="Assets\Terasurware\Editor\EntityTemplate.txt" />
      <None Include="Assets\Terasurware\Editor\EntityTemplate2.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/imai miri/Last/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/imai miri/Last/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/imai miri/Last/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/imai miri/Last/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/imai miri/Last/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -311,35 +312,50 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.10f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="GitHub.Api.45">
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity.45">
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.UnityShim">
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/imai miri/Last/Assets/Terasurware/Editor/npoi/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Terasurware/Editor/npoi/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="NPOI">
- <HintPath>C:/Users/imai miri/Last/Assets/Terasurware/Editor/npoi/NPOI.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Terasurware/Editor/npoi/NPOI.dll</HintPath>
  </Reference>
  <Reference Include="NPOI.OOXML">
- <HintPath>C:/Users/imai miri/Last/Assets/Terasurware/Editor/npoi/NPOI.OOXML.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Terasurware/Editor/npoi/NPOI.OOXML.dll</HintPath>
  </Reference>
  <Reference Include="NPOI.OpenXml4Net">
- <HintPath>C:/Users/imai miri/Last/Assets/Terasurware/Editor/npoi/NPOI.OpenXml4Net.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Terasurware/Editor/npoi/NPOI.OpenXml4Net.dll</HintPath>
  </Reference>
  <Reference Include="NPOI.OpenXmlFormats">
- <HintPath>C:/Users/imai miri/Last/Assets/Terasurware/Editor/npoi/NPOI.OpenXmlFormats.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Assets/Terasurware/Editor/npoi/NPOI.OpenXmlFormats.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/imai miri/Last/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/imai miri/Last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/imai miri/Last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/imai miri/Last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/imai miri/Last/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/かずき/Desktop/game/last/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -698,7 +714,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{88FD9C8C-A6FD-839E-21D5-766969C16C2A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{A1C84C88-7C2F-E3DB-FB91-FCF4E7E8EAE2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{3B62CDB7-F8A2-56D7-C038-257620DF8D53}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
